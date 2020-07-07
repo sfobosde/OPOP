@@ -7,14 +7,25 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Threading;
 
 namespace OPOP
 {
-	public partial class Form1 : Form
+	public partial class StartForm : Form
 	{
-		public Form1()
+
+		public StartForm()
 		{
 			InitializeComponent();
+		}
+
+		private void StartForm_Paint(object sender, PaintEventArgs e)
+		{
+		}
+
+		private void StartForm_FormClosing(object sender, FormClosingEventArgs e)
+		{
+
 		}
 	}
 }

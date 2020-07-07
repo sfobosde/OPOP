@@ -1,0 +1,9 @@
+C:\Users\Admin\Desktop\prac\OPOP\bin\Debug\OPOP.exe.config
+C:\Users\Admin\Desktop\prac\OPOP\bin\Debug\OPOP.exe
+C:\Users\Admin\Desktop\prac\OPOP\bin\Debug\OPOP.pdb
+C:\Users\Admin\Desktop\prac\OPOP\obj\Debug\OPOP.csprojAssemblyReference.cache
+C:\Users\Admin\Desktop\prac\OPOP\obj\Debug\OPOP.StartForm.resources
+C:\Users\Admin\Desktop\prac\OPOP\obj\Debug\OPOP.Properties.Resources.resources
+C:\Users\Admin\Desktop\prac\OPOP\obj\Debug\OPOP.csproj.GenerateResource.cache
+C:\Users\Admin\Desktop\prac\OPOP\obj\Debug\OPOP.exe
+C:\Users\Admin\Desktop\prac\OPOP\obj\Debug\OPOP.pdb
