@@ -46,6 +46,18 @@ namespace OPOP
 					gc = true;
 				}
 			}
+			public void SetTextMessage(Graphics fc)
+			{
+				Font fnt = new Font("Times New Romana", 10);
+				if (gc)
+				{
+					fc.DrawString("Не смей ехать на красный!", fnt, Brushes.Red, 120, 45);
+				}
+				else
+				{
+					fc.DrawString("Не тормози, Зеленый - Стартуй!", fnt, Brushes.Green, 120, 45);
+				}
+			}
 			public LIGHTER()
 			{
 				LighterThread = new Thread(new ThreadStart(LighterFunc));
@@ -54,17 +66,57 @@ namespace OPOP
 				LighterThread.Start();
 			}
 		}
+
 		LIGHTER Lighter;
+
+		MenuItem exititem;
+		MenuItem viewitem;
+
+		MenuItem fileitem;
+		MenuItem settingsitem;
+		MenuItem infoitem;
+
+		MainMenu StartFormMenu;
 		public StartForm()
 		{
 			InitializeComponent();
+
 			Lighter = new LIGHTER();
 			Lighter.SwitchColor += new LIGHTER.OnSwitchColor(Invalidate);
+
+			viewitem = new MenuItem("Обзор", new EventHandler(OnClickViewItemMenu));
+			exititem = new MenuItem("Выход", new EventHandler(OnClickExitItemMenu));
+
+			fileitem = new MenuItem("Файл", new MenuItem[] { viewitem, exititem });
+
+			settingsitem = new MenuItem("Настройки", new EventHandler(OnClickSettingsItemMenu));
+
+			infoitem = new MenuItem("Информация", new EventHandler(OnClickInfoItemMenu));
+
+			StartFormMenu = new MainMenu(new MenuItem[] { fileitem, settingsitem, infoitem });
+			this.Menu = StartFormMenu;
 		}
 
+		void OnClickExitItemMenu(object sr, EventArgs e)
+		{
+
+		}
+		void OnClickViewItemMenu(object sr, EventArgs e)
+		{
+
+		}
+		void OnClickSettingsItemMenu(object sr, EventArgs e)
+		{
+
+		}
+		void OnClickInfoItemMenu(object sr, EventArgs e)
+		{
+
+		}
 		private void StartForm_Paint(object sender, PaintEventArgs e)
 		{
 			Lighter.SetColor(e.Graphics);
+			Lighter.SetTextMessage(e.Graphics);
 		}
 
 		private void StartForm_FormClosing(object sender, FormClosingEventArgs e)
