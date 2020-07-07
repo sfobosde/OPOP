@@ -50,6 +50,7 @@
 			this.startbutton.TabIndex = 0;
 			this.startbutton.Text = "СТАРТ";
 			this.startbutton.UseVisualStyleBackColor = true;
+			this.startbutton.Click += new System.EventHandler(this.startbutton_Click);
 			// 
 			// pictureBox4
 			// 

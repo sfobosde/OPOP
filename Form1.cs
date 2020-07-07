@@ -22,6 +22,7 @@ namespace OPOP
 
 			public Thread LighterThread;
 
+			//to check green color status
 			public bool gc = true;
 
 			void LighterFunc()
@@ -35,27 +36,18 @@ namespace OPOP
 			}
 			public void SetColor(Graphics fc)
 			{
-				if(gc)
+				Font fnt = new Font("Times New Romana", 10);
+				if (gc)
 				{
 					fc.FillEllipse(Brushes.Green, 30, 30, 50, 50);
+					fc.DrawString("Не тормози, Зеленый - Стартуй!", fnt, Brushes.Green, 120, 45);
 					gc = false;
 				}
 				else
 				{
 					fc.FillEllipse(Brushes.Red, 30, 30, 50, 50);
-					gc = true;
-				}
-			}
-			public void SetTextMessage(Graphics fc)
-			{
-				Font fnt = new Font("Times New Romana", 10);
-				if (gc)
-				{
 					fc.DrawString("Не смей ехать на красный!", fnt, Brushes.Red, 120, 45);
-				}
-				else
-				{
-					fc.DrawString("Не тормози, Зеленый - Стартуй!", fnt, Brushes.Green, 120, 45);
+					gc = true;
 				}
 			}
 			public LIGHTER()
@@ -99,7 +91,8 @@ namespace OPOP
 
 		void OnClickExitItemMenu(object sr, EventArgs e)
 		{
-
+			Lighter.live = false;
+			this.Close();
 		}
 		void OnClickViewItemMenu(object sr, EventArgs e)
 		{
@@ -116,11 +109,16 @@ namespace OPOP
 		private void StartForm_Paint(object sender, PaintEventArgs e)
 		{
 			Lighter.SetColor(e.Graphics);
-			Lighter.SetTextMessage(e.Graphics);
 		}
 
 		private void StartForm_FormClosing(object sender, FormClosingEventArgs e)
 		{
+			Lighter.live = false;
+		}
+
+		private void startbutton_Click(object sender, EventArgs e)
+		{
+			GameForm field = new GameForm();
 			Lighter.live = false;
 		}
 	}
