@@ -45,10 +45,14 @@ namespace OPOP
 		void OnClickViewItemMenu(object sr, EventArgs e)
 		{
 			//on click view in menu
+			ViewWindow viewWindow = new ViewWindow();
+			viewWindow.Show();
 		}
 		void OnClickSettingsItemMenu(object sr, EventArgs e)
 		{
 			//on click settings in menu
+			SettingsWindow settingsWindow = new SettingsWindow();
+			settingsWindow.Show();
 		}
 		void OnClickInfoItemMenu(object sr, EventArgs e)
 		{
