@@ -9,4 +9,4 @@ C:\Users\Admin\Desktop\prac\OPOP\obj\Debug\OPOP.exe
 C:\Users\Admin\Desktop\prac\OPOP\obj\Debug\OPOP.pdb
 C:\Users\Admin\Desktop\prac\OPOP\obj\Debug\OPOP.GameForm.resources
 C:\Users\Admin\Desktop\prac\OPOP\obj\Debug\OPOP.ViewWindow.resources
-C:\Users\Admin\Desktop\prac\OPOP\obj\Debug\OPOP.SettingsWindow.resources
+C:\Users\Admin\Desktop\prac\OPOP\obj\Debug\OPOP.InfoWindow.resources

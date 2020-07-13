@@ -63,6 +63,16 @@ namespace OPOP.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap ASOIU {
+            get {
+                object obj = ResourceManager.GetObject("ASOIU", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap CAR1PREV {
             get {
                 object obj = ResourceManager.GetObject("CAR1PREV", resourceCulture);
@@ -156,6 +166,26 @@ namespace OPOP.Properties {
         internal static System.Drawing.Bitmap field {
             get {
                 object obj = ResourceManager.GetObject("field", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap IKTZI {
+            get {
+                object obj = ResourceManager.GetObject("IKTZI", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap KAI {
+            get {
+                object obj = ResourceManager.GetObject("KAI", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

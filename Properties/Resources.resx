@@ -121,17 +121,23 @@
   <data name="field" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\field.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="CAR4UPVIEW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\CAR4UPVIEW.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="CAR1UPVIEW" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\CAR1UPVIEW.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="CAR3UPVIEW" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\CAR3UPVIEW.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="IKTZI" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\IKTZI.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="CAR3PREV" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\CAR3PREV.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="CAR2UPVIEW" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\CAR2UPVIEW.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="CAR1PREV" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\CAR1PREV.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CAR3UPVIEW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\CAR3UPVIEW.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="CAR4PREV" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\CAR4PREV.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -142,10 +148,13 @@
   <data name="CAR2PREV" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\CAR2PREV.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="CAR1PREV" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\CAR1PREV.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="CAR2UPVIEW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\CAR2UPVIEW.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="CAR4UPVIEW" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\CAR4UPVIEW.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="KAI" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\KAI.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ASOIU" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\ASOIU.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

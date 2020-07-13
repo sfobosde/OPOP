@@ -17,7 +17,6 @@ namespace OPOP
 		MenuItem viewitem;
 
 		MenuItem fileitem;
-		MenuItem settingsitem;
 		MenuItem infoitem;
 
 		MainMenu StartFormMenu;
@@ -30,11 +29,9 @@ namespace OPOP
 
 			fileitem = new MenuItem("Файл", new MenuItem[] { viewitem, exititem });
 
-			settingsitem = new MenuItem("Настройки", new EventHandler(OnClickSettingsItemMenu));
-
 			infoitem = new MenuItem("Информация", new EventHandler(OnClickInfoItemMenu));
 
-			StartFormMenu = new MainMenu(new MenuItem[] { fileitem, settingsitem, infoitem });
+			StartFormMenu = new MainMenu(new MenuItem[] { fileitem, infoitem });
 			this.Menu = StartFormMenu;
 		}
 
@@ -48,15 +45,11 @@ namespace OPOP
 			ViewWindow viewWindow = new ViewWindow();
 			viewWindow.Show();
 		}
-		void OnClickSettingsItemMenu(object sr, EventArgs e)
-		{
-			//on click settings in menu
-			SettingsWindow settingsWindow = new SettingsWindow();
-			settingsWindow.Show();
-		}
 		void OnClickInfoItemMenu(object sr, EventArgs e)
 		{
 			//on click info in menu
+			InfoWindow iw = new InfoWindow();
+			iw.Show();
 		}
 		private void StartForm_Paint(object sender, PaintEventArgs e)
 		{
