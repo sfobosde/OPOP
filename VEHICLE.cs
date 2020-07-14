@@ -102,7 +102,6 @@ namespace OPOP
 					break;
 			}
 			workstatus = true;
-			VehThr.Start();
 		}
 	}
 }

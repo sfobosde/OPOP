@@ -27,17 +27,22 @@ namespace OPOP
 			Lighter.switchtime = 10000;
 			Lighter.SwitchColor = new GameLighter.OnSwitchColor(Invalidate);
 
-			CAR1 = new VEHICLE(Vehicle1, 1, 15);
+			CAR1 = new VEHICLE(Vehicle1, 1, 12);
 			CAR1.VehicleDrive = new VEHICLE.OnVehicleDrive(Invalidate);
 
 			CAR2 = new VEHICLE(Vehicle2, 4, 15);
 			CAR2.VehicleDrive = new VEHICLE.OnVehicleDrive(Invalidate);
 
-			CAR3 = new VEHICLE(Vehicle3, 2, 15);
+			CAR3 = new VEHICLE(Vehicle3, 2, 17);
 			CAR3.VehicleDrive = new VEHICLE.OnVehicleDrive(Invalidate);
 
-			CAR4 = new VEHICLE(Vehicle4, 3, 15);
+			CAR4 = new VEHICLE(Vehicle4, 3, 20);
 			CAR4.VehicleDrive = new VEHICLE.OnVehicleDrive(Invalidate);
+
+			CAR1.VehThr.Start();
+			CAR2.VehThr.Start();
+			CAR3.VehThr.Start();
+			CAR4.VehThr.Start();
 		}
 
 		private void GameForm_Paint(object sender, PaintEventArgs e)
