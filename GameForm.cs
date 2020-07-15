@@ -43,6 +43,8 @@ namespace OPOP
 			CAR2.VehThr.Start();
 			CAR3.VehThr.Start();
 			CAR4.VehThr.Start();
+
+			Lighter.LighterThread.Start();
 		}
 
 		private void GameForm_Paint(object sender, PaintEventArgs e)

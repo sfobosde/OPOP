@@ -42,7 +42,6 @@ namespace OPOP
 		{
 			LighterThread = new Thread(new ThreadStart(LighterFunc));
 			workstatus = true;
-			LighterThread.Start();
 		}
 		public void DrawLighter(Graphics ds)
 		{
